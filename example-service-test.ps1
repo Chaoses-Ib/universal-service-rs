@@ -1,4 +1,7 @@
-cargo build --example service
+if (-not (Test-Path "$(Get-Location)\target\debug\examples\service.exe")) {
+    Write-Error "need to build in unprivileged window"
+    Exit 1
+}
 
 $name = "testservice"
 

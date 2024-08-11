@@ -7,6 +7,10 @@ license = "MIT"
 repository = "https://github.com/oko/windows-service-detector-rs"
 description = "A Rust crate that provides building blocks for creating service binaries across operating system platforms."
 
+[[bin]]
+name = "example_service"
+path = "examples/service.rs"
+
 [dependencies]
 anyhow = "1.0.71"
 ctrlc = "3.4.0"
