@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 authors = ["Jacob Okamoto <oko+github@oko.io>"]
 license = "MIT"
-repository = "https://github.com/oko/windows-service-detector-rs"
+repository = "https://github.com/oko/universal-service-rs"
 description = "A Rust crate that provides building blocks for creating service binaries across operating system platforms."
 
 [[bin]]
